@@ -409,7 +409,7 @@ merge_tifs<-function(){
   pp3=plot_grid(score2,selected,disease, labels =  c("C","E","F"),nrow=1)
   pp4=plot_grid(pp,pp2,pp3,selected,nrow=3,ncol=1,rel_heights=c(12,8,8)) 
   ###
-  ggsave(filename = "./figs/Fig2.jpg",plot = pp4,width = 21, height = 28, dpi = 600,units="cm")
+  ggsave(filename = "./figs/Fig2.tiff",plot = pp4,width = 21, height = 28, dpi = 600,units="cm")
  
 }
 ##
