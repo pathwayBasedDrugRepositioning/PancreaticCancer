@@ -40,7 +40,6 @@ figs4drug<-function(drugName,cell="PANC-1"){
   pp2=plot_grid(fig_bliss3d,fig_loewe3d,fig_HSA3d,fig_zip3d,nrow=2,ncol=2)
   pp3=plot_grid(title,pp2,bar,nrow=3,rel_heights=c(0.1,1,1))
   ###
-  #ggsave(filename = paste0("./figs/heat_",drugName,".tiff"),plot = pp,width = 28, height = 21, dpi = 600,units="cm", compression = "lzw")
   ggsave(filename = paste0("./figs/supplementaryFig_",label,".tiff"),plot = pp3,width = 21, height = 28, dpi = 600,units="cm", compression = "lzw")
   return(pp)
 }
@@ -63,5 +62,28 @@ gen_fig3<-function(){
   ggsave(filename = paste0("./figs/fig4.tiff"),plot = pp2,width = 11, height = 8.3, dpi = 600,units="in", compression = "lzw")
 
 }
+gen_fig5<-function(){
+ folder=paste0("./SynergyFinderOutput/All/")
+  
+  bliss=paste0(folder,"Bliss.svg");
+  HSA=paste0(folder,"HSA.svg")
+  loewe=paste0(folder,"Loewe.svg")
+  zip = paste0(folder,"ZIP.svg")  
+
+  fig_bliss=ggdraw() +  draw_image(bliss);
+  fig_HSA=ggdraw() +  draw_image(HSA);
+  fig_loewe=ggdraw() +  draw_image(loewe);
+  fig_zip=ggdraw() +  draw_image(zip);
+  
+  pp=plot_grid(fig_bliss,fig_loewe,ncol=1,labels=LETTERS[1:2])
+pp2=plot_grid(fig_HSA,fig_zip,ncol=1,labels=LETTERS[1:2])
+ 
+ ggsave(filename = paste0("./figs/fig5.tiff"),plot = pp,width = 8, height = 11, dpi = 600,units="in", compression = "lzw")
+ ggsave(filename = paste0("./figs/SupplementaryFig_synergy.tiff"),plot = pp2,width = 8, height = 11, dpi = 600,units="in", compression = "lzw")
+ 
+  xx=1
+}
+
 #figs4drug("Entinostat")
 gen_fig3()
+gen_fig5()
