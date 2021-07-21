@@ -1,0 +1,20 @@
+Pathway Name	ID	Score Type	Res-score
+Notch signalling pathway	169345	Score1	Yes
+Superpathway of steroid hormone biosynthesis	907943	Score1	Yes
+Calcineurin-regulated NFAT-dependent transcription in lymphocytes	137993	Score1	
+Chromosome maintenance	161048	Score1	
+Metabolism	477135	Score1	
+FOXA1 transcription factor network	137979	Score2	
+MAPK targets/ Nuclear events mediated by MAP kinases	160138	Score2	Yes
+TGF Beta signaling pathway	198810	Score2	
+Signaling by activin	730349	Score2	
+Notch signalling pathway	169345	Res-score	
+Superpathway of steroid hormone biosynthesis	907943	Res-score	
+MAPK targets/ Nuclear events mediated by MAP kinases	160138	Res-score	
+Chromosome maintenance	161048	Selected	
+Folate metabolism	198833	Selected	
+Hedgehog signaling pathway	198835	Selected	
+Fructose and mannose metabolism	82930	Selected	
+Superpathway of steroid hormone biosynthesis	907943	Selected	
+MAPK targets/ Nuclear events mediated by MAP kinases	160138	Selected	
+Aurora B signaling	138080	Selected	
