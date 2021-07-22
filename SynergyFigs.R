@@ -105,4 +105,3 @@ gen_fig5<-function(){
 #figs4drug("Entinostat")
 gen_fig3()
 gen_fig5()
-print("Happy")
