@@ -7,3 +7,6 @@ Reads raw synergy files and creates one file in data2 folder for inputing to syn
 
 SynergyFigs.R:
 Generates Fig3 and 4 which are different synergy metrices for 10 of the top synergistic drug pairs, more detailed figs are being generated as supplementary figs.
+
+gemcitabineInstances.R :
+Compares gene signatures and pathway signatures of gemcitabine instances 1 and 2.
