@@ -1,0 +1,32 @@
+compound1	"PANC-1/BXPC3"	"Selected as S / C"	Score Type	Score Comb	Single agent score	GI50 (nM)	GI90 (nM)	Loewe Score combenefit	Bliss Score combenefit
+Salmeterol	P	S&C	Res	-0.841	-0.331	4248	>10,000	14.2	2.1
+Scriptaid	P	S&C	Res	-0.893	-0.327	3218	>10,000	33.3	10.4
+Tacedinaline	P&B	S&C	Res	-0.843	-0.393	>10,000	>10,000	26.5	8
+Triclosan	P	C	Res	-0.999	-0.277	>10,000	>10,000	13.1	5.2
+Entinostat	P&B	S&C	Res/ Score1	-0.775	-0.453	11007	16626	51.5	26.7
+Loperamide	P	S&C	Score1	-0.709	-0.358	3200	>10,000	23.2	12.1
+RS-17053	P	S&C	Score1	-0.832	-0.385	3154	5275	1.6	0.5
+Saracatinib	P	S&C	Score1	-0.657	-0.328	>10,000	>10,000	40	22.1
+Thioridazine	P	C	Score1	-0.728	-0.211	9318	16163	34.1	20.3
+Digoxin	P	C	Score2	-0.832	-0.205	25	66	6.7	5.3
+TW-37	P&B	C	Score2	-0.807	-0.256	372	2376	15.1	1.2
+Dibenzazepine	P	S&C	"Selected HS&FrM"		-0.445	8975	13108	20.6	7.3
+Maprotiline	P&B	S&C	"Selected CM"		-0.345	>10,000	>10,000	12.1	5.3
+Y-134	P	S&C	"Selected CM&SS"		-0.41	>10,000	>10,000	18.4	6
+Racecadotril	P&B	S&C	"Selected CM&FoM"		-0.357	>10,000	>10,000	31.3	24
+Palbociclib	P&B	S&C	"Selected MK&AB&HS"		-0.453	6285	>10,000	7	2.9
+Actinomycin D	P	S			-0.311	<1	4	18.7	1.3
+BMS-387032	P&B	S			-0.375	114	218	7.7	1.9
+BX-795	P&B	S			-0.404	1619	9207	13.8	0.3
+Ciclopirox	P&B	S			-0.397	1002	1134	11	3.9
+Clofarabine	P&B	S			-0.399	>10,000	>10,000	15.4	8.4
+L-168	P	S			-0.28	>10,000	>10,000	17.2	5
+Leelamine	P	S			-0.312	7567	9462	7.2	3.5
+Medroxyprogesterone	P	S			-0.361	>10,000	>10,000	2.1	0.1
+Phloretin	P&B	S			-0.397	>10,000	>10,000	8.1	8.1
+Serdemetan	P&B	S			-0.421	3094	>10,000	7.7	3
+STK525924	P&B	S			-0.425	6684	11519	7.2	1.4
+Teniposide	P	S			-0.45	546	4371	11.6	1.8
+Ursolic acid	P	S		 	-0.156	>10,000	>10,000	11	2.3
+Gemcitabine	P	S	PC		-0.45	152	>10,000	3.4	0
+Semagacestat	P	C	PC			>10,000	>10,000	27.4	8.9
